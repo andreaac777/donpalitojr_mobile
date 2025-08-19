@@ -1,7 +1,7 @@
 const products = [
   {
     id: 1,
-    name: 'Palito Premium de Puro Queso',
+    name: 'Palito Premium de Queso',
     image:
       'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/food/peperoni.png',
     price: 2500,
@@ -22,7 +22,7 @@ const products = [
   },
   {
     id: 4,
-    name: 'Palito Coctelero de Puro Queso',
+    name: 'Palito Coctelero de Queso',
     image:
       'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/food/margarita.png',
     price: 1000,
