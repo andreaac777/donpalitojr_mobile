@@ -30,7 +30,14 @@ export default function TabLayout() {
       <Tabs.Screen
         name="index"
         options={{
+          href: null,
+        }}
+      />
+      <Tabs.Screen
+        name="menu"
+        options={{
           title: 'Productos',
+          headerShown: false,
           tabBarIcon: ({ color }) => <TabBarIcon name="food-croissant" color={color} />,
           headerRight: () => (
             <Link href="/modal" asChild>
