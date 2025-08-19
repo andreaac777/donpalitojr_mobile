@@ -34,9 +34,7 @@ const styles = StyleSheet.create({
   container: {
     backgroundColor: 'white',
     padding: 10,
-    borderRadius: 20,
     flex: 1,
-    maxWidth: '50%',
   },
   image:{
     width: '100%',
@@ -48,7 +46,6 @@ const styles = StyleSheet.create({
     marginVertical: 10
   },
   price: {
-    color: 'gray',
     fontWeight: 'bold'
   },
 });

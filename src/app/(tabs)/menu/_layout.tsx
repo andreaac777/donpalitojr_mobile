@@ -5,7 +5,7 @@ export default function MenuStack() {
     <Stack>
         <Stack.Screen
             name="index"
-            options={{ title: 'Productos' }}
+            options={{ title: 'Productos'}}
         />
     </Stack>
     );
