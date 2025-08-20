@@ -39,27 +39,13 @@ export default function TabLayout() {
           title: 'Productos',
           headerShown: false,
           tabBarIcon: ({ color }) => <TabBarIcon name="food-croissant" color={color} />,
-          headerRight: () => (
-            <Link href="/modal" asChild>
-              <Pressable>
-                {({ pressed }) => (
-                  <FontAwesome
-                    name="info-circle"
-                    size={25}
-                    color={Colors[colorScheme ?? 'light'].text}
-                    style={{ marginRight: 15, opacity: pressed ? 0.5 : 1 }}
-                  />
-                )}
-              </Pressable>
-            </Link>
-          ),
         }}
       />
       <Tabs.Screen
         name="two"
         options={{
-          title: 'Carrito',
-          tabBarIcon: ({ color }) => <TabBarIcon name="cart-outline" color={color} />,
+          title: 'Perfil',
+          tabBarIcon: ({ color }) => <TabBarIcon name="account" color={color} />,
         }}
       />
     </Tabs>

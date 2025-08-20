@@ -1,9 +1,10 @@
 import { Text, View, Image, StyleSheet } from 'react-native'
 import React from 'react'
-import { Stack, useLocalSearchParams } from 'expo-router'
+import { Stack, useLocalSearchParams, useRouter } from 'expo-router'
 import products from '@assets/data/products'
 import { defaultImage } from '@/components/ProductListItem'
 import Button from '@/components/Button'
+import { useCart } from '@/providers/CartProvider'
 
 const ProductDetailsScreen = () => {
   const { id } = useLocalSearchParams(); 
@@ -11,9 +12,14 @@ const ProductDetailsScreen = () => {
   if (!product) {
     return <Text>Producto no Encontrado</Text>;
   }
+  const { addItem } = useCart();
+
+  const router = useRouter();
 
   const addToCart = () => {
-    console.warn('Añadido al carrito');
+    if (!product) return;
+    addItem(product);
+    router.push('/cart');
   };
 
   return (
@@ -22,7 +28,7 @@ const ProductDetailsScreen = () => {
         options={{ 
           title: product.name,
           headerTitleStyle: {
-            fontSize: 18,
+            fontSize: 15,
           },
         }}
       />
