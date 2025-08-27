@@ -42,9 +42,10 @@ export default function TabLayout() {
         }}
       />
       <Tabs.Screen
-        name="two"
+        name="orders"
         options={{
           title: 'Pedidos',
+          headerShown: false,
           tabBarIcon: ({ color }) => <TabBarIcon name="format-list-bulleted" color={color} />,
         }}
       />
