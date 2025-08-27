@@ -3,7 +3,7 @@ const products = [
     id: 1,
     name: 'Palito Premium de Queso',
     image:
-      'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/food/peperoni.png',
+      'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/food/6cheese.png',
     price: 2500,
     description: 'Palito relleno de queso mozzarella, crocante y delicioso.',
   },
@@ -11,7 +11,7 @@ const products = [
     id: 2,
     name: 'Palito Premium de Bocadillo y Queso',
     image:
-      'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/food/extravaganzza.png',
+      'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/food/6cheese.png',
     price: 2500,
     description: 'Palito relleno de queso mozzarella con un toque dulce de bocadillo.',
   },
@@ -19,7 +19,7 @@ const products = [
     id: 3,
     name: 'Palito Premium de Jamón y Queso',
     image:
-      'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/food/peperoni.png',
+      'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/food/6cheese.png',
     price: 2500,
     description: 'Combinación clásica de jamón y queso mozzarella.',
   },
@@ -27,7 +27,7 @@ const products = [
     id: 4,
     name: 'Palito Coctelero de Queso',
     image:
-      'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/food/margarita.png',
+      'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/food/6cheese.png',
     price: 1000,
     description: 'Versión coctelera del palito relleno de queso mozzarella, pequeño y perfecto para picar.',
   },
@@ -35,7 +35,7 @@ const products = [
     id: 5,
     name: 'Palito Coctelero de Bocadillo y Queso',
     image:
-      'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/food/veggie.png',
+      'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/food/6cheese.png',
     price: 1000,
     description: 'Bocado pequeño con relleno de queso mozzarella y un toque dulce de bocadillo.',
   },
@@ -51,7 +51,7 @@ const products = [
     id: 7,
     name: 'Palito Coctelero de Chocolate y Queso',
     image:
-      'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/food/deluxe.png',
+      'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/food/6cheese.png',
     price: 1000,
     description: 'Contraste único de queso mozzarella y chocolate semiamargo.',
   },

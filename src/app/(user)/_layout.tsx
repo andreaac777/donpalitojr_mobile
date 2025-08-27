@@ -44,8 +44,8 @@ export default function TabLayout() {
       <Tabs.Screen
         name="two"
         options={{
-          title: 'Perfil',
-          tabBarIcon: ({ color }) => <TabBarIcon name="account" color={color} />,
+          title: 'Pedidos',
+          tabBarIcon: ({ color }) => <TabBarIcon name="format-list-bulleted" color={color} />,
         }}
       />
     </Tabs>
